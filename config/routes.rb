@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'account_activations/edit'
+
+  get 'account_actiovations/edit'
+
   get 'sessions/new'
 
   root 'static_pages#hello'
@@ -11,5 +15,6 @@ Rails.application.routes.draw do
   delete 'logout' => 'sessions#destroy'
 
   resources :users
+  resources :account_activations, only: [:edit]
 
 end
