@@ -1,0 +1,15 @@
+one:
+  follower: alex
+  followed: vasya
+
+two:
+  follower: alex
+  followed: vova
+
+three:
+  follower: vasya
+  followed: alex
+
+four:
+  follower: vova
+  followed: alex

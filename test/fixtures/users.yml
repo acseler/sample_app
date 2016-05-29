@@ -20,7 +20,7 @@ vova:
   activated: true
   activated_at: <%= Time.zone.now%>
 
-vasya:
+kolya:
   name: Kolya
   email: vasya2@mail.ru
   password_digest: <%= User.digest('123456') %>
